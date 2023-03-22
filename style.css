@@ -12,7 +12,7 @@ html {
 header {
   margin: 0 auto;
   height: 48px;
-  padding: 0 24px;
+  padding: 24px;
 }
 
 header .toolbar {
@@ -27,17 +27,13 @@ header .toolbar {
   align-items: center;
 }
 
-header .toolbar a {
-  text-decoration: none;
-  color: #636fd4;
-}
-
 p {
   font-size: 4.3vw;
 }
 
-.toolbar p {
-  margin-bottom: 10px;
+.my_logo {
+  margin-right: 200px;
+  margin-left: 10px;
 }
 
 #Introduction {
@@ -60,6 +56,11 @@ p {
   padding: 0 24px;
 }
 
+#toppart {
+  display: flex;
+  justify-content: space-between;
+}
+
 #toppart p {
   font-style: normal;
   font-weight: 400px;
@@ -68,7 +69,7 @@ p {
   padding: 0 24px;
 }
 
-#introductio > a {
+#introduction > a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
