@@ -19,18 +19,14 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  
+
+  <h3><b>MY README</b></h3>
 
 </div>
 
@@ -55,65 +51,27 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [setup and mobile first] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
- - made a mobile version of a my portfolio
- 
+- Open  repository
+- make a feature branch
+- in the feature branch this where i started the project
+- setup the the github workflow 
+- used html file for the header
+- used css file to set a color to the header 
 
-**[setup and mobile first]** is a...
+**[ setup and mobile first]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠html and css<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,86 +80,84 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
-- used the figma
-- html for the presentation
-- css for the styling 
-- adding of images
+
+- Open  repository
+- make a feature branch
+- in the feature branch this where i started the project
+- setup the the github workflow 
+- used html file for the header
+- used css file to set a color to the header
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+<!-- Features -->
 
-In order to run this project you need:
+### Key Features <a name="key-features"></a>
 
-<!--
-Example command:
+> Describe between 1-3 key features of the application.
 
-```sh
- gem install rails
-```
- -->
+- **[made-header]**
+- **[made-body]**
+- **[added_images]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder or download the Zip folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com: https://github.com/LethaboMot/built-portfilo.git
 ```
---->
+git clone (https://github.com/LethaboMot/portfolio-project.git)
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd Technopreneur``**
 
 ### Install
 
-Install this project with:
+To install all dependencies, run:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, follow these instructions:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+- Track HTML linter errors run:
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
+npx hint .
 ```
- -->
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+
+### Deployment <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+git clone git@github.com:LethaboMot/Hello-Microverse-Project.git
+cd  Hello-Microverse-Project
+git checkout  feature
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,19 +170,10 @@ Example:
 👤 **Author1**
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
-- LinkedIn: [LethaboMotloung](https://www.linkedin.com/in/lethabo-motloung-a8157624b/)
+- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,23 +203,13 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank God-like for helping with the linters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+## ❓ FAQ <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +218,3 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
