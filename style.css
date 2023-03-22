@@ -32,12 +32,12 @@ header {
   padding: 0 24px;
 }
 
-.toolbar p {
-  margin-bottom: 10px;
-}
-
 p {
   font-size: 4.3vw;
+}
+
+.toolbar p {
+  margin-bottom: 10px;
 }
 
 #Introduction {
