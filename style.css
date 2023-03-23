@@ -159,6 +159,10 @@ li {
   line-height: 44px;
 }
 
+.options {
+    background-color: #fff;
+}
+
 .bluebutton {
   cursor: pointer;
   font-size: 17px;
