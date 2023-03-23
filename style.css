@@ -88,6 +88,15 @@ footer p {
   padding: 0 24px;
 }
 
+.Socials2 {
+  display: flex;
+  gap: 21px;
+  list-style: none;
+  padding: 0 24px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+
 .mid {
   padding: 12px;
   margin-right: 10px;
@@ -154,6 +163,11 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-right: 5px;
+}
+
+.bold2 {
+  padding-right: 5px;
 }
 
 .heading {
@@ -176,7 +190,7 @@ li {
   color: #396df2;
   padding: 10px 20px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid #396df2;
   text-decoration: none;
   overflow: hidden;
