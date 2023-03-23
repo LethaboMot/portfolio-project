@@ -163,10 +163,6 @@ git checkout  feature
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
@@ -194,16 +190,6 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
 
 If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank God-like for helping with the linters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

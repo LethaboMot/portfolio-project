@@ -37,12 +37,10 @@ p {
 }
 
 #Introduction {
-  width: 100%;
-  height: calc(100vh - 48px);
   background-image: url("images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 114px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 12px;
