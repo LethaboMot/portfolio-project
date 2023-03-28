@@ -500,10 +500,6 @@ input[type="message"] {
     height: 280px;
   }
   
-  .screening {
-    margin-bottom: 0px;
-  }
-
   .code {
     display: flex;
     flex-direction: row;
