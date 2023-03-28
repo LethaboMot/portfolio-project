@@ -150,7 +150,7 @@ li {
   font-weight: 600;
   color: #344563;
   margin-left: 10px;
-  }
+}
 
 .heading {
   margin: 10px 0;
@@ -169,7 +169,7 @@ li {
   border-radius: 10px;
   border: 1px solid #396df2;
   text-decoration: none;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .bluebutton:hover {
@@ -351,7 +351,7 @@ footer.contact-menu {
 
 .contact-form {
   width: 100%;
-  display: grid; 
+  display: grid;
 }
 
 input[type="text"] {
@@ -447,7 +447,7 @@ input[type="message"] {
     line-height: 20px;
   }
 
-  p  {
+  p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -496,11 +496,11 @@ input[type="message"] {
     float: right;
     width: 100%;
     height: 280px;
-    margin-right: 45  0px;
+    margin-right: 45px 0px;
   }
   
   .screening {
-    margin-bottom: 00px;
+    margin-bottom: 0px;
   }
 
   .code {
