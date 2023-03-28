@@ -59,7 +59,7 @@ p {
   padding: 0 24px;
 }
 
-footer p {
+article p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -312,7 +312,7 @@ li {
   gap: 12px;
 }
 
-footer h2 {
+article h2 {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -339,7 +339,7 @@ footer h2 {
 
 /* contact form */
 
-footer.contact-menu {
+article.contact-menu {
   left: 0;
   top: 5410px;
   background: #6070ff;
@@ -352,6 +352,7 @@ footer.contact-menu {
 .contact-form {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 input[type="text"] {
@@ -532,7 +533,7 @@ input[type="message"] {
     flex-direction: column;
   }
 
-  footer.contact-menu {
+  article.contact-menu {
     padding: 182px 400px 127px;
     background: url("images/contact\ form\ background\ shapes.png") no-repeat center center #6070ff;
     display: grid;
