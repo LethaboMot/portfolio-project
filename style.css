@@ -351,7 +351,7 @@ footer.contact-menu {
 
 .contact-form {
   width: 100%;
-  display: grid;
+  display: flex;
 }
 
 input[type="text"] {
