@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 - used html file for the header
 - used css file to set a color to the header 
 
-**[ setup and mobile first]** is a...
+**[ contact form]** is a...
 
 ## 🛠html and css<a name="built-with"></a>
 
@@ -85,8 +85,8 @@ After you're finished please remove all the comments and instructions!
 - make a feature branch
 - in the feature branch this where i started the project
 - setup the the github workflow 
-- used html file for the header
-- used css file to set a color to the header
+- used html file for the contact form
+- used css file color and make it fit the figma of the contact form
 
 To get a local copy up and running, follow these steps.
 
@@ -107,7 +107,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone (https://github.com/LethaboMot/portfolio-project.git)
+git clone ((https://github.com/LethaboMot/portfolio-project.git))
 ```
 
 - Navigate to the location of the folder in your machine:
