@@ -135,6 +135,7 @@ footer p {
   display: row;
   overflow: hidden;
   margin-bottom: 10px;
+  gap: 8px;
 }
 
 .description {
