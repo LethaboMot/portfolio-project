@@ -98,7 +98,8 @@ To get a local copy up and running, follow these steps.
 
 - **[made branch]**
 - **[made the deploy]**
-- 
+- **[made the popup menu]**
+- **[mobile menu]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
