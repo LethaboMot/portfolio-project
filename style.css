@@ -434,6 +434,8 @@ input[type="message"] {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .overlay p .slidefont {
