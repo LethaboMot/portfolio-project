@@ -90,7 +90,6 @@ To get a local copy up and running, follow these steps.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
 - **[made branch]**
 - **[made the deploy]**
 - **[made the popup menu]**
