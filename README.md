@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 
   
 
-  <h3><b>MY README</b></h3>
+  <h3><b>MY Portfolio</b></h3>
 
 </div>
 
@@ -65,13 +65,11 @@ After you're finished please remove all the comments and instructions!
 - used html file for the header
 - used css file to set a color to the header 
 
-**[ deploy]** is a...
+**[Portfolio]** is a...
 
 ## 🛠html and css<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +77,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 - Open  repository
 - make a feature branch
@@ -93,9 +90,6 @@ To get a local copy up and running, follow these steps.
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
 - **[made branch]**
 - **[made the deploy]**
 - **[made the popup menu]**
@@ -105,8 +99,6 @@ To get a local copy up and running, follow these steps.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://lethabomot.github.io/portfolio-project/)
 
@@ -197,8 +189,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[deployment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -217,7 +207,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 Please give a ⭐️if you like this project
 
@@ -227,17 +216,9 @@ Please give a ⭐️if you like this project
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for giving me this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
 
 <!-- LICENSE -->
 
