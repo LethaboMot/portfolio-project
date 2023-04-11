@@ -449,18 +449,9 @@ input[type="message"] {
   text-indent: 22px;
 }
 
+/* put under the modal comment */
 /* modal */
-.popup {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 40%);
-}
+
 
 .popup-content {
   background-color: #fefefe;
