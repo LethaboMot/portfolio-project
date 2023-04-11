@@ -449,9 +449,7 @@ input[type="message"] {
   text-indent: 22px;
 }
 
-/* put under the modal comment */
 /* modal */
-
 .popup {
   display: none;
   position: fixed;
