@@ -91,8 +91,6 @@ To get a local copy up and running, follow these steps.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[made branch]**
 - **[made the deploy]**
 - **[made the popup menu]**
@@ -102,8 +100,6 @@ To get a local copy up and running, follow these steps.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://lethabomot.github.io/portfolio-project/)
 
