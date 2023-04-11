@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 
   
 
-  <h3><b>MY README</b></h3>
+  <h3><b>MY Portfolio</b></h3>
 
 </div>
 
@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 - used html file for the header
 - used css file to set a color to the header 
 
-**[ deploy]** is a...
+**[Portfolio]** is a...
 
 ## 🛠html and css<a name="built-with"></a>
 
