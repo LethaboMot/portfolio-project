@@ -13,6 +13,7 @@ modalbuttons.forEach(function(btn) {
   btn.onclick = function(){
     const modal = btn.getAttribute('.bluebutton');
     document.getElementById(modal).style.display = 'block';
+    document.getElementById(modal).style.display = 'close';
   };
 });
 
@@ -42,4 +43,5 @@ closeMenu.onclick = function () {
 };
 popup2();
 btn2();
+span();
 addPopupTrigger('');
