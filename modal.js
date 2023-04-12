@@ -8,6 +8,7 @@ const popup2 = document.getElementById('myPopup2');
 const btn2 = document.getElementById('myBtn2');
 const span2 = document.getElementsByClassName('close2')[0];
 const modalbuttons = document.querySelectorAll('.bluebutton');
+modalbuttons();
 
 function addPopupTrigger(btn2, popup2) {
   btn2.onclick = function () {
