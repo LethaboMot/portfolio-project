@@ -9,7 +9,7 @@ const btn2 = document.getElementById('myBtn2');
 const span2 = document.getElementsByClassName('close2')[0];
 const modalbuttons = document.querySelectorAll('.bluebutton');
 
-function addPopupTrigger (btn2, popup2) {
+function addPopupTrigger(btn2, popup2) {
   btn2.onclick = function () {
     popup2.style.display = 'block';
 
@@ -18,6 +18,7 @@ function addPopupTrigger (btn2, popup2) {
     };
   };
 }
+
 btn.onclick = function () {
   popup.style.display = 'block';
 };
@@ -26,14 +27,16 @@ span.onclick = function () {
   popup.style.display = 'none';
 };
 
+popup2();
+
 button.onclick = function () {
   modal.style.display = 'block';
 };
 
 closeMenu.onclick = function () {
-  popup.style.display = 'none';
+  modal.style.display = 'none';
 };
-popup2();
+
 btn2();
 span2();
 addPopupTrigger('');
