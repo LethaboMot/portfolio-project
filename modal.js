@@ -75,3 +75,13 @@ window.onclick = function (event) {
     popup3.style.display = 'none';
   }
 };
+
+// const modalbuttons = document.querySelectorAll('.bluebutton');
+
+// modalbuttons.forEach(function(btn) {
+//   btn.onclick = function(){
+//     const modal = btn.getAttribute('data-modal');
+
+//     document.getElementById(modal).style.display = 'block';
+//   };
+// });
