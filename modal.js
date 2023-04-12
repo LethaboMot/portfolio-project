@@ -9,17 +9,15 @@ const btn2 = document.getElementById('myBtn2');
 const span2 = document.getElementsByClassName('close2')[0];
 const modalbuttons = document.querySelectorAll('.bluebutton');
 
-
 modalbuttons.forEach(function(btn) {
   btn.onclick = function(){
     const modal = btn.getAttribute('.bluebutton');
-
     document.getElementById(modal).style.display = 'block';
   };
 });
 
-function addPopupTrigger(btn, popup2) {
-  btn.onclick = function () {
+function addPopupTrigger(btn2, popup2) {
+  btn2.onclick = function () {
     popup2.style.display = 'block';
 
     span.onclick = function () {
@@ -42,3 +40,6 @@ button.onclick = function () {
 closeMenu.onclick = function () {
   popup.style.display = 'none';
 };
+popup2();
+btn2();
+addPopupTrigger('');
