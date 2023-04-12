@@ -7,15 +7,13 @@ const closeMenu = document.getElementsByClassName('close1')[0];
 const popup2 = document.getElementById('myPopup2');
 const btn2 = document.getElementById('myBtn2');
 const span2 = document.getElementsByClassName('close2')[0];
-const modalbuttons = document.querySelectorAll('.bluebutton');
-modalbuttons();
 
 function addPopupTrigger(btn2, popup2) {
   btn2.onclick = function () {
     popup2.style.display = 'block';
 
     span.onclick = function () {
-      popup.style.display = 'none';
+      popup2.style.display = 'none';
     };
   };
 }
