@@ -151,11 +151,14 @@
 
         <form class="contact-form" action="https://formspree.io/f/mwkzgqen" method="POST">
             <input type="text" id="name" name="text" placeholder="Full Name" maxlength="30" required />
-            <input type="email" id="email" placeholder="natajayanj14@gmail.com" maxlength="30" required /><span class="error"></span>
+            <input type="email" id="email" placeholder="natajayanj14@gmail.com" maxlength="30" required />
+            <!-- <span class="error"></span> -->
             <input type="message" id="message" name="message" placeholder="Write your message here" required minlength="4" maxlength="500" size="100" />
+            
             <div>
                 <button type="submit" class="bluebutton2">Get In touch</button>
             </div>
+            <span id="error"></span>
         </form>
     </footer>
     <section id="modalId">
