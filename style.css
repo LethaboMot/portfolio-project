@@ -193,10 +193,6 @@ li {
   color: white;
 }
 
-#error {
-  color: red;
-}
-
 .bluebutton:focus {
   background: #396df2;
   color: #fff;
@@ -630,6 +626,10 @@ input[type="message"] {
 
 .space {
   padding-top: 30px;
+}
+
+#error {
+  color: red;
 }
 
 /* desktop version */

@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 
 const email = document.getElementById('email');
 
-const wrong = document.getElementById('error')
+const wrong = document.getElementById('error');
 
 const emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
 
