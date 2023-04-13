@@ -123,6 +123,15 @@ footer p {
   justify-items: center;
 }
 
+#about_self {
+  margin: 20px 0;
+  display: grid;
+  row-gap: 70px;
+  padding: 114px 24px;
+  background: #e5e5e5;
+  justify-items: center;
+}
+
 .whitebox {
   background: #fff;
   border-radius: 16px;
@@ -135,6 +144,7 @@ footer p {
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .description {
@@ -149,6 +159,12 @@ li {
 .bold {
   font-weight: 600;
   color: #344563;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.noti {
+  margin-right: 10px;
   margin-left: 10px;
 }
 
@@ -297,18 +313,22 @@ li {
   margin-right: 20px;
 }
 
-.whitebox:hover {
+/* .whitebox:hover {
   transform: scale(1.1);
   box-shadow: 2px 2px #a7aeff;
-}
+} */
 
 .imageclass img {
   max-width: 100%;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
 #about_me {
   width: 100%;
-  background-image: url("images/about\ me.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 114px;
@@ -427,12 +447,190 @@ input[type="message"] {
   margin-top: 0;
   margin-bottom: 0;
   text-indent: 22px;
+}
+
+/* modal */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.popup1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.popup-content1 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.popup-content2 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.popup-content3 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+  display: flex;
+  flex-direction: column;
+}
+
+.alive-button {
+  width: 200px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.images-center img {
+  width: 100%;
+  height: auto;
+}
+
+.text2 {
+  padding-top: 30px;
+  width: 311px;
+  height: 220px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.space {
+  padding-top: 30px;
 }
 
 /* desktop version */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   html,
   body {
     width: 100%;
@@ -595,5 +793,35 @@ input[type="message"] {
 
   input[type="message"] {
     border-radius: 2px;
+  }
+
+  /* desktop popup */
+
+  .images-center img {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .perpendicular {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+  }
+
+  .space {
+    margin-left: 10px;
+    padding-right: 3px;
+  }
+
+  .text2 {
+    width: 778px;
+    font-style: normal;
+    line-height: 30px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 }

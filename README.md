@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 
   
 
-  <h3><b>MY README</b></h3>
+  <h3><b>MY Portfolio</b></h3>
 
 </div>
 
@@ -56,23 +56,20 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [setup mobile menu] <a name="about-project"></a>
+# 📖 [desktop version] <a name="about-project"></a>
 
 - Open  repository
 - make a feature branch
 - in the feature branch this where i started the project
 - setup the the github workflow 
 - used html file for the header
-- used javascript for the mobile menu
 - used css file to set a color to the header 
 
-**[setup mobile menu]** is a...
+**[Portfolio]** is a...
 
 ## 🛠html and css<a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,26 +77,30 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 - Open  repository
 - make a feature branch
 - in the feature branch this where i started the project
 - setup the the github workflow 
-- used html file for the contact form
-- used css file color and make it fit the figma of the contact form
+- used html file for the header
+- used css file to set a color to the header
 
 To get a local copy up and running, follow these steps.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- **[made branch]**
+- **[made the deploy]**
+- **[made the popup menu]**
+- **[mobile menu]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> Describe between 1-3 key features of the application.
+<!-- LIVE DEMO -->
 
-- **[added-the-contact-form]**
-- **[formspree_works]**
-- **[]**
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://lethabomot.github.io/portfolio-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +109,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone ((https://github.com/LethaboMot/portfolio-project.git))
+git clone (https://github.com/LethaboMot/portfolio-project.git)
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -188,9 +189,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[contact_form]**
+- [ ] **[deployment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,7 +207,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 Please give a ⭐️if you like this project
 
@@ -218,17 +216,9 @@ Please give a ⭐️if you like this project
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for giving me this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
 
 <!-- LICENSE -->
 
