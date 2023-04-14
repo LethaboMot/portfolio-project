@@ -54,3 +54,30 @@ window.onclick = function (event) {
     projects.style.display = 'none';
   }
 };
+
+const nameObj = document.getElementById('name');
+const emailObj = document.getElementById('mail');
+const msgObj = document.getElementById('message');
+
+// form addEventListener on change
+// stringify the object 
+
+contactForm.addEventListener('input', () => {
+
+  localStorage.setItem("name", JSON.stringify(nameObj.value));
+  localStorage.setItem("email", JSON.stringify(emailObj.value));
+  localStorage.setItem("message", JSON.stringify(msgObj.value));
+
+})
+
+// window eventlistener on load 
+// parse the string
+// place it in the fields
+
+window.addEventListener('load', () => {
+
+  nameObj.value = JSON.parse(localStorage.getItem("name"));
+  emailObj.value = JSON.parse(localStorage.getItem("email"));
+  msgObj.value = JSON.parse(localStorage.getItem("message"));
+
+})
