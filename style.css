@@ -628,6 +628,10 @@ input[type="message"] {
   padding-top: 30px;
 }
 
+#error {
+  color: red;
+}
+
 /* desktop version */
 
 @media only screen and (min-width: 768px) {

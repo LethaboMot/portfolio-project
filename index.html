@@ -112,8 +112,7 @@
                 </h3>
                 <div class="code">
                     <li class="grey_area">
-                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span
-              >
+                        <img src="images/javascriptLogo.png " alt="Javascript " /><span>Javascript</span>
             </li>
 
             <li class="grey_area">
@@ -136,26 +135,26 @@
                         <img class="arrow_icon " src="images/Icon - Chevron - Right - Larger.png " alt="down " />
                     </li>
                     <hr class="separation">
-                    
-                    
                 </ul>
             </div>
         </div>
     </section>
 
-    <footer class="contact-menu" id="contactForm">
+     <footer class="contact-menu" id="contactForm">
         <h2 class="background">Contact me</h2>
         <p>
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
         </p>
 
-        <form class="contact-form" action="https://formspree.io/f/mwkzgqen" method="post">
+        <form class="contact-form" action="https://formspree.io/f/mwkzgqen" method="POST">
             <input type="text" id="name" name="text" placeholder="Full Name" maxlength="30" required />
             <input type="email" id="email" placeholder="natajayanj14@gmail.com" maxlength="30" required />
             <input type="message" id="message" name="message" placeholder="Write your message here" required minlength="4" maxlength="500" size="100" />
+            
             <div>
                 <button type="submit" class="bluebutton2">Get In touch</button>
             </div>
+            <span id="error"></span>
         </form>
     </footer>
     <section id="modalId">
@@ -163,6 +162,7 @@
    
     <script src="script.js"></script>
     <script src="modal.js" type="module"></script>
+    <script src="validation.js"></script>
     <script src="projects.js"></script>
     <script src="popup.js"></script>
     <script src="app.js"></script>
